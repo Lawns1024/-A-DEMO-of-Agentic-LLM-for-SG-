@@ -1,24 +1,24 @@
-# CEVI IoT MAC 图表生成器
+## Experiment Overview
 
-该脚本基于 `cevi-iot-policy.csv` 生成可插入论文的吞吐量/碰撞率图表。
+This folder contains the ns-3 experiment assets for the CEVI IoT MAC evaluation.
 
-## 使用方法
+## How to Run
 
-1. 先运行 ns-3 仿真，确保生成 `cevi-iot-policy.csv`。
-2. 安装依赖：
-   - `pip install -r requirements.txt`
-3. 运行绘图脚本：
+1. Copy `cevi-iot-mac.cc` into the `scratch/` directory of your ns-3 workspace.
+2. Run the ns-3 simulation and make sure it produces `cevi-iot-policy.csv`.
+3. Generate plots using:
    - `python plot_cevi_iot.py --csv /path/to/cevi-iot-policy.csv`
 
-输出：
+## Outputs
+
 - `cevi-iot-metrics.png`
 - `cevi-iot-metrics.pdf`
 
-## CSV 列说明
+## CSV Column Definitions
 
-- `time_s`：仿真时间（秒）
-- `node_id`：节点 ID
-- `state`：策略状态
-- `cw_min` / `cw_max`：退避窗口
-- `throughput_mbps`：吞吐量（Mbps）
-- `collision_rate`：碰撞率（0~1）
+- `time_s`: Simulation time (seconds)
+- `node_id`: Node ID
+- `state`: Policy state
+- `cw_min` / `cw_max`: Contention window bounds
+- `throughput_mbps`: Throughput (Mbps)
+- `collision_rate`: Collision rate (0–1)
