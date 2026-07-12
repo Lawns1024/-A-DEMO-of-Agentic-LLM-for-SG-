@@ -1,0 +1,12 @@
+state,joint_action_id,joint_action,probability,node_0_cw_min_multiplier,node_0_cw_max_multiplier,node_1_cw_min_multiplier,node_1_cw_max_multiplier,node_2_cw_min_multiplier,node_2_cw_max_multiplier,node_3_cw_min_multiplier,node_3_cw_max_multiplier
+s_idle,0,a_aggr-a_aggr-a_aggr-a_aggr,1,1,1,1,1,1,1,1,1
+s_congested,3,a_aggr-a_aggr-a_cons-a_cons,0.0556957766272,1,1,1,1,2,4,2,4
+s_congested,5,a_aggr-a_cons-a_aggr-a_cons,0.0556957766272,1,1,2,4,1,1,2,4
+s_congested,6,a_aggr-a_cons-a_cons-a_aggr,0.0556957766272,1,1,2,4,2,4,1,1
+s_congested,7,a_aggr-a_cons-a_cons-a_cons,0.166456335059,1,1,2,4,2,4,2,4
+s_congested,9,a_cons-a_aggr-a_aggr-a_cons,0.0556957766272,2,4,1,1,1,1,2,4
+s_congested,10,a_cons-a_aggr-a_cons-a_aggr,0.0556957766272,2,4,1,1,2,4,1,1
+s_congested,11,a_cons-a_aggr-a_cons-a_cons,0.166456335059,2,4,1,1,2,4,2,4
+s_congested,12,a_cons-a_cons-a_aggr-a_aggr,0.0556957766272,2,4,2,4,1,1,1,1
+s_congested,13,a_cons-a_cons-a_aggr-a_cons,0.166456335059,2,4,2,4,1,1,2,4
+s_congested,14,a_cons-a_cons-a_cons-a_aggr,0.166456335059,2,4,2,4,2,4,1,1

@@ -1,0 +1,10 @@
+{
+  "avg_throughput_mbps": 21.84347648,
+  "avg_collision_rate": 0.2764969392582061,
+  "avg_efficiency": 17.135669497929648,
+  "offered_load_mbps": 21.845333333333333,
+  "seed": 42,
+  "seconds": 50,
+  "cevi_iterations": 376,
+  "cevi_residual": 9.922035415499408e-11
+}
